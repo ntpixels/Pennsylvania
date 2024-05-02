@@ -21,6 +21,9 @@ encoding            : "utf-8"
 markdown_ext        : "markdown,mkdown,mkdn,mkd,md"
 strict_front_matter : false
 
+# Design
+theme: jekyll-theme-cayman
+
 # Filtering Content
 show_drafts         : null
 limit_posts         : 0
