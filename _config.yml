@@ -7,23 +7,16 @@ encoding            : "utf-8"
  markdown_ext        : "markdown,mkdown,mkdn,mkd,md"
  strict_front_matter : false
 
- # Design
- theme: jekyll-theme-cayman
+# Design
+theme: jekyll-theme-cayman
 
- # Filtering Content
- show_drafts         : null
- limit_posts         : 0
-future              : false
-unpublished         : false
-# Plugins
-whitelist           : []
-plugins             : []
 # Conversion
 markdown            : kramdown
 highlighter         : rouge
 lsi                 : false
 excerpt_separator   : "\n\n"
 incremental         : false
+
 # Serving
 detach              : false
 port                : 4000
