@@ -3,6 +3,7 @@ source              : .
 destination         : ./_site
 collections_dir     : .
 plugins_dir         : _plugins # takes an array of strings and loads plugins in that order
+theme               : _jekyll-theme-cayman
 layouts_dir         : _layouts
 data_dir            : _data
 includes_dir        : _includes
@@ -20,9 +21,6 @@ keep_files          : [".git", ".svn"]
 encoding            : "utf-8"
 markdown_ext        : "markdown,mkdown,mkdn,mkd,md"
 strict_front_matter : false
-
-# Design
-theme: jekyll-theme-cayman
 
 # Filtering Content
 show_drafts         : null
